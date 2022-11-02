@@ -101,9 +101,11 @@ Bei der Frequenzsynthese werden die Momentanwerte der Einzelsignal zur Gesamtamp
 ## Leitungen
 
 ![Hier sollte Bild sein](Bilder/leitung.png)
+
 Hin und Rückleitung zusammengefasst ergibt $R' = 2 \cdot \frac {R'}{2},L' = 2 \cdot \frac {L'}{2}$
 Leitungsbelag = Kennwert bezogen auf die Längeneinheit 
 z.B. $R'=\frac{2 \Omega}{100m}$
+
 ![Hier sollte Bild sein](Bilder/leitung1.png)
 
 ### Vereifachungen (praxisnäher)
