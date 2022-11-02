@@ -63,3 +63,11 @@ $b_n= \frac{2}{T}\cdot \int_{0}^{T} u(t)\cdot sin(n\cdot w_0 \cdot t) \,dt$
 ## Spektraldichtefunktion
 
 Berechnung von symetrischen Signalen, d.h. f(t) = f(-t)
+![Hier sollte Bild sein](Bilder/rechtspeck.png)
+![Hier sollte Bild sein](Bilder/spektral.png)
+
+Die Berechnung der Amplitudenwerte des Spektrums mit der Spektraldichtefunktion resultiert aus Analogien und einer Betrachtung der Energieverteilung im Spektrum. Da keine negativen Frequenzen auftreten, wird der negative (rote) Bereich auf den positiven (grünen) Bereich geklappt => die roten werden zu den grünen Linien addiert, d.h. der Betrag verdoppelt sich.
+
+##### Amplitudenwerte
+
+$A_n=u(n\cdot f_0)=2 \cdot \frac{U_{ss}\cdot t_i}{T} \cdot \frac{sin(\pi \cdot n \cdot f_0 \cdot t_i)}{\pi \cdot n \cdot f_0 \cdot t_i}=\frac{2\cdot U_{ss}}{\pi \cdot n}sin(\pi \cdot n \cdot f_0 \cdot t_i)$
