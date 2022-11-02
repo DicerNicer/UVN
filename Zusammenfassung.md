@@ -83,7 +83,7 @@ vereinfacht: $B=\frac{1}{t_i}\ \ \ \text{für} \ t_i=t_p\ \text{folgt}\ \ B=\fra
 
 Bei der Frequenzsynthese werden die Momentanwerte der Einzelsignal zur Gesamtamplitude addiert und ergeben den zeitlichen Verlauf des Gesamtsignals $U_a$. Die einzelnen Frequenzen bleiben bei der Überlagerung erhalten und tauchen als Linien im Spektrum auf.
 
-![Hier sollte Bild sein](Bilder/fourier.png)
+![Hier sollte Bild sein](Bilder/fourier1.png)
 
 ### Erkenntnisse
 
