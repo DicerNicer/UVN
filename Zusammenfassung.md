@@ -1,5 +1,7 @@
 # Zusammenfassung
 
+---
+
 ## Beschreibung der Signale in der Nachrichtentechnik
 
 Es werden nur periodische Signale behandelt
@@ -22,19 +24,9 @@ Periodendauer: $T,t_i = \text{Impulsdauer}, t_p = \text{Pausendauer},\text{Tastv
 Delay, Verzögerung: $t_D$
 Frequenz: $T = t_i+t_p, f=\frac{1}{T}$
 
-##### Gleichspannungsanteil $U_{DC}$
+#### Gleichspannungsanteil $U_{DC}$
 
 $U_{DC}=\frac{\hat u_i \cdot t_i + \hat u_p\cdot t_p}{T}$
-
-## Frequenzsynthese
-
-![Hier sollte Bild sein](Bilder/schaltung.png)
-
-Bei der Frequenzsynthese werden die Momentanwerte der Einzelsignal zur Gesamtamplitude addiert und ergeben den zeitlichen Verlauf des Gesamtsignals $U_a$. Die einzelnen Frequenzen bleiben bei der Überlagerung erhalten und tauchen als Linien im Spektrum auf.
-
-![Hier sollte Bild sein](Bilder/fourier.png)
-
-Bei der Darstellung im Frequenzbereich geht eine Phasenverschiebung des Signals im Zeitbereich verloren.
 
 #### Allgemeine Gleichung einer Rechteckschwingung
 
@@ -60,6 +52,8 @@ $a_n= \frac{2}{T}\cdot \int_{0}^{T} u(t)\cdot cos(n\cdot w_0 \cdot t) \,dt$
 
 $b_n= \frac{2}{T}\cdot \int_{0}^{T} u(t)\cdot sin(n\cdot w_0 \cdot t) \,dt$
 
+---
+
 ## Spektraldichtefunktion
 
 Berechnung von symetrischen Signalen, d.h. f(t) = f(-t)
@@ -68,6 +62,56 @@ Berechnung von symetrischen Signalen, d.h. f(t) = f(-t)
 
 Die Berechnung der Amplitudenwerte des Spektrums mit der Spektraldichtefunktion resultiert aus Analogien und einer Betrachtung der Energieverteilung im Spektrum. Da keine negativen Frequenzen auftreten, wird der negative (rote) Bereich auf den positiven (grünen) Bereich geklappt => die roten werden zu den grünen Linien addiert, d.h. der Betrag verdoppelt sich.
 
-##### Amplitudenwerte
+### Amplitudenwerte
 
-$A_n=u(n\cdot f_0)=2 \cdot \frac{U_{ss}\cdot t_i}{T} \cdot \frac{sin(\pi \cdot n \cdot f_0 \cdot t_i)}{\pi \cdot n \cdot f_0 \cdot t_i}=\frac{2\cdot U_{ss}}{\pi \cdot n}sin(\pi \cdot n \cdot f_0 \cdot t_i)$
+$A_n=u(n\cdot f_0)=2 \cdot \frac{U_{ss}\cdot t_i}{T} \cdot \frac{sin(\pi \cdot n \cdot f_0 \cdot t_i)}{\pi \cdot n \cdot f_0 \cdot t_i}=\frac{2\cdot U_{ss}}{\pi \cdot n}\cdot sin(\pi \cdot n \cdot f_0 \cdot t_i)$
+
+#### Nullstellen für
+
+$sin(\pi \cdot n \cdot f_0 \cdot t_i)=0=sin(\pi \cdot n \cdot \frac{t_i}{T})$
+=> $n\cdot f_0 \cdot t_i = m (ganze \ Zahl)$
+$n \cdot f_0=m \cdot \frac{1}{t_i} (Nullstellen \ im \ Spektrum \ bei \ \ m \cdot f_0)$
+
+### Bandbreite(Definition)
+vereinfacht: $B=\frac{1}{t_i}\ \ \ \text{für} \ t_i=t_p\ \text{folgt}\ \ B=\frac{2}{T}=2\cdot f_0$
+
+---
+
+## Frequenzsynthese
+
+![Hier sollte Bild sein](Bilder/schaltung.png)
+
+Bei der Frequenzsynthese werden die Momentanwerte der Einzelsignal zur Gesamtamplitude addiert und ergeben den zeitlichen Verlauf des Gesamtsignals $U_a$. Die einzelnen Frequenzen bleiben bei der Überlagerung erhalten und tauchen als Linien im Spektrum auf.
+
+![Hier sollte Bild sein](Bilder/fourier.png)
+
+### Erkenntnisse
+
+- Mit höheren Frequenzen nimmt die Amplitude ab, d.h. die Linie bei der Grundwelle hat die höchste Amplitude.
+- Bei ti = tp treten nur bei ungeraden Vielfachen der Grundwelle Linien auf.
+- Bei ti ungleich tp treten bei allen Vielfachen der Grundwelle Linien auf.
+- Es gibt nur bei Vielfachen der Grundwelle Linien.
+- Im Spektrum sieht man keine Phasenverschiebung des Signals
+- Eine Veränderung des Offsets ändert nur die Linie bei 0 Hz
+- Es gibt unendlich viele Spektrallinien
+- Die Grundwelle hat die niedrigste Frequenz (>0 Hz)
+
+---
+
+## Leitungen
+
+![Hier sollte Bild sein](Bilder/leitung.png)
+Hin und Rückleitung zusammengefasst ergibt $R' = 2 \cdot \frac {R'}{2},L' = 2 \cdot \frac {L'}{2}$
+Leitungsbelag = Kennwert bezogen auf die Längeneinheit 
+z.B. $R'=\frac{2 \Omega}{100m}$
+![Hier sollte Bild sein](Bilder/leitung1.png)
+
+### Vereifachungen (praxisnäher)
+
+- kurzes Leitungsstück => R' ≈ 0 $\Omega$
+- hoher Isolationswiderstand => G' ≈ 0S
+- hohe Frequenzen 
+$X_L'=\omega \cdot L' \rightarrow \infin \Omega \\ X_c'=\frac{1}{\omega \cdot C'}\rightarrow 0\Omega$
+
+Daraus fogt R' und G' können vernachlässigt werden
+![Hier sollte Bild sein](Bilder/esb.png)
