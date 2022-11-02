@@ -135,3 +135,6 @@ $\frac{U}{I}=\sqrt{\frac{L}{C}}=Z_w [\frac{V}{A}=\Omega]$
 
 Der Wellenwiderstand Zw ist eine Leitungseigenschaft, unabhängig von der Leitungslänge und abhängig von der Frequenz.
 Einheiten: $[C]=\frac{A\cdot s}{V}\ \ \ [L]=\frac{Vs}{A}\ \ \ \ Z_w=\sqrt{\frac{Vs}{A}\frac{V}{As}}=\frac{V}{A}=\Omega$
+
+## Verkürzungsfaktor
+
