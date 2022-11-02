@@ -115,6 +115,7 @@ z.B. $R'=\frac{2 \Omega}{100m}$
 - hohe Frequenzen
 
 $X_L'=\omega \cdot L' \rightarrow \infty \Omega$
+
 $X_c'=\frac{1}{\omega \cdot C'}\rightarrow 0\Omega$
 
 Daraus fogt R' und G' können vernachlässigt werden
