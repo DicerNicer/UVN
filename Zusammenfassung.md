@@ -122,7 +122,7 @@ Daraus fogt R' und G' können vernachlässigt werden
 ![Hier sollte Bild sein](Bilder/esb.png)
 
 ## Energiebetrachtung
-      Kondensator     Induktivität
+      Kapazität     Induktivität
 $W = \frac{1}{2} C'\cdot U^2=\frac{1}{2}L'\cdot J^2$
 
 $\frac{U^2}{J^2} = \frac{L'}{C'}=\frac{L \cdot 100m}{C\cdot 100m}=\frac{L}{C}$
