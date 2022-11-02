@@ -120,3 +120,18 @@ $X_c'=\frac{1}{\omega \cdot C'}\rightarrow 0\Omega$
 
 Daraus fogt R' und G' können vernachlässigt werden
 ![Hier sollte Bild sein](Bilder/esb.png)
+
+## Energiebetrachtung
+      Kondensator     Induktivität
+$W = \frac{1}{2} C'\cdot U^2=\frac{1}{2}L'\cdot J^2$
+
+$\frac{U^2}{J^2} = \frac{L'}{C'}=\frac{L \cdot 100m}{C\cdot 100m}=\frac{L}{C}$
+
+$\sqrt{\frac{U^2}{I^2}}=\frac{U}{I}=\sqrt{\frac{L}{C}}$
+
+##### Wellenwiderstand
+
+$\frac{U}{I}=\sqrt{\frac{L}{C}}=Z_w [\frac{V}{A}=\Omega]$
+
+Der Wellenwiderstand Zw ist eine Leitungseigenschaft, unabhängig von der Leitungslänge und abhängig von der Frequenz.
+Einheiten: $[C]=\frac{A\cdot s}{V}\ \ \ [L]=\frac{Vs}{A}\ \ \ \ Z_w=\sqrt{\frac{Vs}{A}\frac{V}{As}}=\frac{V}{A}=\Omega$
