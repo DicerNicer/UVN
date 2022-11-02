@@ -111,7 +111,7 @@ z.B. $R'=\frac{2 \Omega}{100m}$
 - kurzes Leitungsstück => R' ≈ 0 $\Omega$
 - hoher Isolationswiderstand => G' ≈ 0S
 - hohe Frequenzen 
-$X_L'=\omega \cdot L' \rightarrow \infin \Omega $
+$X_L'=\omega \cdot L' \rightarrow \infinty \Omega $
 $X_c'=\frac{1}{\omega \cdot C'}\rightarrow 0\Omega$
 
 Daraus fogt R' und G' können vernachlässigt werden
