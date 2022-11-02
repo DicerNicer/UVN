@@ -63,3 +63,5 @@ $b_n= \frac{2}{T}\cdot \int_{0}^{T} u(t)\cdot sin(n\cdot w_0 \cdot t) \,dt$
 ## Spektraldichtefunktion
 
 Berechnung von symetrischen Signalen, d.h. f(t) = f(-t)
+
+Test
