@@ -176,6 +176,8 @@ $r=\frac{50\Omega-75\Omega}{50\Omega+75\Omega}=-\frac{1}{5}=-0,2$
 
 $\hat u_2=(1+r)\cdot \hat u_h=(1-0,2)\cdot 0,5V=0,4V$
 
+---
+
 $U_2=\hat u_h +\hat u_r=(\hat i_h -\hat i_r)\cdot R_L$
 
 $\hat u_h+r\cdot \hat u_h=(\hat i_h - r\cdot \hat i_h)\cdot R_L$
