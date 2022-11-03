@@ -160,7 +160,7 @@ $$\left.
 c = 3\cdot 10^8\frac{m}{s}  \\ 
 \vartheta_K = \frac{2}{3} 
 \end{array}
-\right\}
+\right\\}
 \vartheta = \vartheta_K \cdot c=2\cdot 10^8 \frac{m}{s}$$
 
 $$\text{Länge} \ \ L=60m$$
