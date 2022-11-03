@@ -155,6 +155,8 @@ $U_0 = Amplitude der Grundfrequenz$
 
 ## Reflexionsfaktor
 
+![](Bilder/reflex.png)
+
 $$\left.
 \begin{array}{l l}
 c = 3\cdot 10^8\frac{m}{s}  \\ 
