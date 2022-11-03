@@ -213,3 +213,9 @@ r=\frac{\hat u_r}{\hat u_h}=\frac{\hat i_r \cdot Z}{\hat i_h \cdot Z} \\
 r=\frac{R_L-Z}{R_L+Z}
 \end{array}
 }$$
+
+1) Kurzschluss: $R_L=0\Omega \ r=\frac{0-Z}{0 + Z}= -1 \rightarrow \text{negative Totalreflexion, Phasensprung um 180°,d.h. Vorzeichenumkehr}$
+
+2) Leerlauf: $R_L=\infty\Omega \ r=\frac{\infty-Z}{\infty + Z}=1 \rightarrow \text{Totalreflexion}$
+
+3) Anpassung: $R_L=Z \ r=\frac{Z-Z}{Z + Z}=0 \rightarrow \text{keine Reflexion = angepasst}$
