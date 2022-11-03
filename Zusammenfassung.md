@@ -138,3 +138,18 @@ Einheiten: $[C]=\frac{A\cdot s}{V}\ \ \ [L]=\frac{Vs}{A}\ \ \ \ Z_w=\sqrt{\frac{
 
 ## Verkürzungsfaktor
 
+![](Bilder/funk.png)
+![](Bilder/koax.png)
+
+Hohe Geschwindigkeit bei kleinem $\epsilon_r$
+- hohe Geschwindigkeit bei niedriger Kapazität
+    - "schnelle" Kabel müssen kapazitätsarm sein 
+
+## Klirrfaktor K
+
+$k=\frac{\text{Effektivwerte der Spannungen Oberwellen}}{\text{Effektivwerte der Spannungen des Gesamtsignals}}$
+
+$k=\frac{U_1^2+U_2^2+U_3^2...}{U_0^2+U_1^2+U_2^2+U_3^2...}$
+
+## Reflexionsfaktor
+
