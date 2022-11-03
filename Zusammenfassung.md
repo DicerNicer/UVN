@@ -214,8 +214,8 @@ r=\frac{R_L-Z}{R_L+Z}
 \end{array}
 }$$
 
-1) Kurzschluss: $R_L=0\Omega \ r=\frac{0-Z}{0 + Z}= -1 \rightarrow \text{negative Totalreflexion, Phasensprung um 180°,d.h. Vorzeichenumkehr}$
+1) Kurzschluss: $R_L=0\Omega\ \ \ r=\frac{0-Z}{0 + Z}= -1 \rightarrow \text{negative Totalreflexion, Phasensprung um 180°,d.h. Vorzeichenumkehr}$
 
-2) Leerlauf: $R_L=\infty\Omega \ r=\frac{\infty-Z}{\infty + Z}=1 \rightarrow \text{Totalreflexion}$
+2) Leerlauf: $R_L=\infty\Omega\ \ \ r=\frac{\infty-Z}{\infty + Z}=1 \rightarrow \text{Totalreflexion}$
 
-3) Anpassung: $R_L=Z \ r=\frac{Z-Z}{Z + Z}=0 \rightarrow \text{keine Reflexion = angepasst}$
+3) Anpassung: $R_L=Z \ \ \ r=\frac{Z-Z}{Z + Z}=0 \rightarrow \text{keine Reflexion = angepasst}$
