@@ -138,3 +138,76 @@ Einheiten: $[C]=\frac{A\cdot s}{V}\ \ \ [L]=\frac{Vs}{A}\ \ \ \ Z_w=\sqrt{\frac{
 
 ## Verkürzungsfaktor
 
+![](Bilder/funk.png)
+![](Bilder/koax.png)
+
+Hohe Geschwindigkeit bei kleinem $\epsilon_r$
+- hohe Geschwindigkeit bei niedriger Kapazität
+    - "schnelle" Kabel müssen kapazitätsarm sein 
+
+## Klirrfaktor K
+
+$k=\frac{\text{Effektivwerte der Spannungen Oberwellen}}{\text{Effektivwerte der Spannungen des Gesamtsignals}}$
+
+$k=\frac{U_1^2+U_2^2+U_3^2...}{U_0^2+U_1^2+U_2^2+U_3^2...}$
+
+$U_0 = Amplitude der Grundfrequenz$
+
+## Reflexionsfaktor
+
+$$\left.
+\begin{array}{l l}
+c = 3\cdot 10^8\frac{m}{s}  \\ 
+\vartheta_K = \frac{2}{3} 
+\end{array}
+\right\\}
+\vartheta = \vartheta_K \cdot c=2\cdot 10^8 \frac{m}{s}$$
+
+$$\text{Länge} \ \ L=60m$$
+$$\text{Laufzeit im Kabel:}\ \ T_D=\frac{L}{\vartheta}=\frac{60m}{2\cdot 10^8\frac{m}{s}}=300 \cdot 10^{-9}s=300ns$$
+
+$$Z=75\Omega \neq R_L \rightarrow \text{Reflexion}$$
+
+##### Beispiel
+
+$R_L = 50\Omega \ \ \ \ \ \hat u_2=?$
+
+$r=\frac{50\Omega-75\Omega}{50\Omega+75\Omega}=-\frac{1}{5}=-0,2$
+
+$\hat u_2=(1+r)\cdot \hat u_h=(1-0,2)\cdot 0,5V=0,4V$
+
+---
+
+$U_2=\hat u_h +\hat u_r=(\hat i_h -\hat i_r)\cdot R_L$
+
+$\hat u_h+r\cdot \hat u_h=(\hat i_h - r\cdot \hat i_h)\cdot R_L$
+
+$(1+r)\cdot \hat u_h= \hat i_h(1-r)\cdot R_L$
+
+$(1+r)\cdot \sout{\hat u_h}= \frac{\sout{\hat u_h}}{Z}(1-r)\cdot R_L$
+
+$(1+r)=\frac{1}{Z}(1-r)\cdot R_L$
+
+$Z+r\cdot Z=R_L-r\cdot R_L$
+
+$r\cdot Z+r\cdot R_L=R_L-Z$
+
+$r(Z+R_L)=R_L-Z$
+
+$$\text{Reflektionsfaktor r}$$
+
+$$\boxed{
+\begin{array}{l l}
+Festlegungen: \\
+\hat u_r= r\cdot \hat u_h \rightarrow r=\frac{\hat u_r}{\hat u_h} \\
+\hat u_r = r\cdot \hat i_h \rightarrow r=\frac{\hat i_r}{\hat i_h} \\
+\left.
+\begin{array}{l l}
+\hat u_r = \hat i_r \cdot Z  \\ 
+\hat u_h = \hat i_h \cdot Z 
+\end{array}
+\right\\}
+r=\frac{\hat u_r}{\hat u_h}=\frac{\hat i_r \cdot Z}{\hat i_h \cdot Z} \\
+r=\frac{R_L-Z}{R_L+Z}
+\end{array}
+}$$
