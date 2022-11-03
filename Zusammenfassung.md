@@ -186,7 +186,7 @@ $\hat u_h+r\cdot \hat u_h=(\hat i_h - r\cdot \hat i_h)\cdot R_L$
 
 $(1+r)\cdot \hat u_h= \hat i_h(1-r)\cdot R_L$
 
-$(1+r)\cdot \sout{\hat u_h}= \frac{\sout{\hat u_h}}{Z}(1-r)\cdot R_L$
+$(1+r)\cdot \\sout{\hat u_h}= \frac{\\sout{\hat u_h}}{Z}(1-r)\cdot R_L$
 
 $(1+r)=\frac{1}{Z}(1-r)\cdot R_L$
 
