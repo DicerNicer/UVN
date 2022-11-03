@@ -171,16 +171,27 @@ $Z=75\Omega \neq R_L \rightarrow \text{Reflexion}$
 ##### Beispiel
 
 $R_L = 50\Omega \ \ \ \ \ \hat u_2=?$
+
 $r=\frac{50\Omega-75\Omega}{50\Omega+75\Omega}=-\frac{1}{5}=-0,2$
+
 $\hat u_2=(1+r)\cdot \hat u_h=(1-0,2)\cdot 0,5V=0,4V$
+
 $U_2=\hat u_h +\hat u_r=(\hat i_h -\hat i_r)\cdot R_L$
+
 $\hat u_h+r\cdot \hat u_h=(\hat i_h - r\cdot \hat i_h)\cdot R_L$
+
 $(1+r)\cdot \hat u_h= \hat i_h(1-r)\cdot R_L$
+
 $(1+r)\cdot \sout{\hat u_h}= \frac{\sout{\hat u_h}}{Z}(1-r)\cdot R_L$
+
 $(1+r)=\frac{1}{Z}(1-r)\cdot R_L$
+
 $Z+r\cdot Z=R_L-r\cdot R_L$
+
 $r\cdot Z+r\cdot R_L=R_L-Z$
+
 $r(Z+R_L)=R_L-Z$
+
 <span style="color:red">Reflektionsfaktor r</span>
 
 $\boxed{
