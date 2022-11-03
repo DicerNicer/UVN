@@ -151,5 +151,6 @@ $k=\frac{\text{Effektivwerte der Spannungen Oberwellen}}{\text{Effektivwerte der
 
 $k=\frac{U_1^2+U_2^2+U_3^2...}{U_0^2+U_1^2+U_2^2+U_3^2...}$
 
+$U_0 = Amplitude der Grundfrequenz$
 ## Reflexionsfaktor
 
