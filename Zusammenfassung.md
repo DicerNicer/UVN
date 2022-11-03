@@ -206,7 +206,7 @@ Festlegungen: \\
 \hat u_r = \hat i_r \cdot Z  \\ 
 \hat u_h = \hat i_h \cdot Z 
 \end{array}
-\right\}
+\right\\}
 r=\frac{\hat u_r}{\hat u_h}=\frac{\hat i_r \cdot Z}{\hat i_h \cdot Z} \\
 r=\frac{R_L-Z}{R_L+Z}
 \end{array}
