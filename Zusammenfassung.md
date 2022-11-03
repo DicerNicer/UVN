@@ -166,6 +166,7 @@ c = 3\cdot 10^8\frac{m}{s}  \\
 \vartheta = \vartheta_K \cdot c=2\cdot 10^8 \frac{m}{s}$$
 
 $$\text{Länge} \ \ L=60m$$
+
 $$\text{Laufzeit im Kabel:}\ \ T_D=\frac{L}{\vartheta}=\frac{60m}{2\cdot 10^8\frac{m}{s}}=300 \cdot 10^{-9}s=300ns$$
 
 $$Z=75\Omega \neq R_L \rightarrow \text{Reflexion}$$
