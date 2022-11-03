@@ -196,18 +196,18 @@ $r(Z+R_L)=R_L-Z$
 
 <span style="color:red">Reflektionsfaktor r</span>
 
-$\boxed{
-\begin{array}{l l}
-Festlegungen: \\
-\hat u_r= r\cdot \hat u_h \rightarrow r=\frac{\hat u_r}{\hat u_h} \\
-\hat u_r = r\cdot \hat i_h \rightarrow r=\frac{\hat i_r}{\hat i_h} \\
-\left.
+$Festlegungen:$
+
+$\hat u_r= r\cdot \hat u_h \rightarrow r=\frac{\hat u_r}{\hat u_h}$
+
+$\hat u_r = r\cdot \hat i_h \rightarrow r=\frac{\hat i_r}{\hat i_h}$
+
+$\left.
 \begin{array}{l l}
 \hat u_r = \hat i_r \cdot Z  \\ 
 \hat u_h = \hat i_h \cdot Z 
 \end{array}
 \right\}
-r=\frac{\hat u_r}{\hat u_h}=\frac{\hat i_r \cdot Z}{\hat i_h \cdot Z} \\
-r=\frac{R_L-Z}{R_L+Z}
-\end{array}
-}$
+r=\frac{\hat u_r}{\hat u_h}=\frac{\hat i_r \cdot Z}{\hat i_h \cdot Z}$
+
+$r=\frac{R_L-Z}{R_L+Z}$
