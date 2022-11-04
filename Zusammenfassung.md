@@ -278,6 +278,14 @@ $r=\frac{R_L-Z}{R_L+Z}=\frac{\hat u_r}{\hat u_h}$
 2) offenes Ende:                     Reflexion mit gleicher Polarität und gleicher Amplitude
 3) Anpassung( $R_L=Z$ ):        keine Reflexion
 
+##### Laufzeit im Kabel
+
+$T_D=\frac{L}{\vartheta}$
+
+$L = \text{Länge des Kabels}$
+
+$\vartheta = \text{Geschwindigkeit im Kabel}$
+
 ##### (Leitungs -) Wellenwiderstand Z
 
 $Z=\sqrt\frac{L'}{C'}$
@@ -285,6 +293,7 @@ $Z=\sqrt\frac{L'}{C'}$
 ##### Ersatzschaltbild Koaxialkabel
 
 Vollständig
+
 ![Hier sollte Bild sein](Bilder/ESBvoll.png)
 
 ###### Vereinfachungen für kurze Kabel mit hoher Frequenz
