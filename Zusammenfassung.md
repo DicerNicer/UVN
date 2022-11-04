@@ -11,17 +11,25 @@ Es werden nur periodische Signale behandelt
 ![Hier sollte Bild sein](Bilder/sinus.png)
 
 Signalform: $\text{sinusförmig}$
+
 Amplitude: $U_{ss},\hat u_{max},\hat u_{min}, \text{Offset} \ U_{DC}$
+
 Periodendauer: $T$
+
 Delay, Phasenverschiebung: $t_D, \text{Phasenwinkel} \ \varphi $
+
 Frequenz: $f=\frac{1}{T}$
 
 ![Hier sollte Bild sein](Bilder/rechteck.png)
 
 Signalform: $\text{rechteckförmig}$
+
 Amplitude: $(\hat u_{max},\hat u_{min}),u_{max},u_{min} \text{Offset} \ U_{DC}$
+
 Periodendauer: $T,t_i = \text{Impulsdauer}, t_p = \text{Pausendauer},\text{Tastverhältnis}=\frac{t_i}{t_p}$
+
 Delay, Verzögerung: $t_D$
+
 Frequenz: $T = t_i+t_p, f=\frac{1}{T}$
 
 #### Gleichspannungsanteil $U_{DC}$
