@@ -266,7 +266,7 @@ $r=\frac{R_L-Z}{R_L+Z}=\frac{\hat u_r}{\hat u_h}$
 
 1) Kurzschluss:                       Reflexion mit entgegengesetzter Polarität und gleicher Amplitude
 2) offenes Ende:                     Reflexion mit gleicher Polarität und gleicher Amplitude
-3) Anpassung($R_L=Z$):       keine Reflexion
+3) Anpassung($R_L=Z$):        keine Reflexion
 
 ##### (Leitungs -) Wellenwiderstand Z
 
