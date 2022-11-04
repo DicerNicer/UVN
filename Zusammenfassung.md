@@ -135,7 +135,7 @@ Daraus fogt R' und G' können vernachlässigt werden
       Kapazität     Induktivität
 $W = \frac{1}{2} C'\cdot U^2=\frac{1}{2}L'\cdot J^2$
 
-$\frac{U^2}{J^2} = \frac{L'}{C'}=\frac{L \cdot 100m}{C\cdot 100m}=\frac{L}{C}$
+$\frac{U^2}{J^2} = \frac{L'}{C'}=\frac{L \cdot \cancel{100m}}{C\cdot \cancel{100m}}=\frac{L}{C}$
 
 $\sqrt{\frac{U^2}{I^2}}=\frac{U}{I}=\sqrt{\frac{L}{C}}$
 
