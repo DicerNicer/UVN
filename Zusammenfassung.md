@@ -254,6 +254,10 @@ $f_{Null}=m \cdot \frac{1}{t_i}\ \ \ \text{mit m = 1,2,3,4...}$
 
 $B=\frac{1}{t_i}\ \ \ \text{für}\  t_i =t_p\ \text{gilt}\ B=2\cdot f_0$
 
+Frequenzbereich des Signals der für Informationsübertragung genutzt werden kann
+
+1. Nullstelle im Spektrum
+
 ##### Klirrfaktor
 
 $K=\frac{\text{Effektivwerte der Spannungen der Oberwellen}}{\text{Effektivwerte der Spannungen des Gesamtsignals}}=\sqrt{\frac{U_1^2+U_2^2+U_3^2...}{U_0^2+U_1^2+U_2^2+U_3^2...}}$
