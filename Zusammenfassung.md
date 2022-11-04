@@ -147,9 +147,9 @@ Hohe Geschwindigkeit bei kleinem $\epsilon_r$
 
 ## Klirrfaktor K
 
-$k=\frac{\text{Effektivwerte der Spannungen der Oberwellen}}{\text{Effektivwerte der Spannungen des Gesamtsignals}}$
+$K=\frac{\text{Effektivwerte der Spannungen der Oberwellen}}{\text{Effektivwerte der Spannungen des Gesamtsignals}}$
 
-$k=\sqrt{\frac{U_1^2+U_2^2+U_3^2...}{U_0^2+U_1^2+U_2^2+U_3^2...}}$
+$K=\sqrt{\frac{U_1^2+U_2^2+U_3^2...}{U_0^2+U_1^2+U_2^2+U_3^2...}}$
 
 $U_0 = Amplitude der Grundfrequenz$
 
@@ -220,3 +220,66 @@ r=\frac{R_L-Z}{R_L+Z}
 2) Leerlauf: $R_L=\infty\Omega\ \ \ r=\frac{\infty-Z}{\infty + Z}=1 \rightarrow \text{Totalreflexion}$
 
 3) Anpassung: $R_L=Z \ \ \ r=\frac{Z-Z}{Z + Z}=0 \rightarrow \text{keine Reflexion = angepasst}$
+
+---
+## Alle Formeln auf einen Blick
+
+##### Frequenz f
+
+$f=\frac{1}{T}$
+
+##### Gleichspannungsanteil U_DC
+
+$U_{DC}=\frac{\hat u_i \cdot t_i + \hat u_p\cdot t_p}{T}$
+
+##### Amplitude der Spektrallinien
+
+$\frac{2\cdot U_{ss}}{\pi \cdot n}\cdot sin(\pi \cdot n \cdot f_0 \cdot t_i)$
+
+##### Nullstellen im Spektrum
+
+$f_{Null}=m \cdot \frac{1}{t_i}\ \ \ \text{mit m = 1,2,3,4...}$
+
+##### Bandbreite (vereinfachte Rechnung)
+
+$B=\frac{1}{t_i}\ \ \ \text{für}\  t_i =t_p\ \text{gilt}\ B=2\cdot f_0$
+
+##### Klirrfaktor
+
+$K=\frac{\text{Effektivwerte der Spannungen der Oberwellen}}{\text{Effektivwerte der Spannungen des Gesamtsignals}}=\sqrt{\frac{U_1^2+U_2^2+U_3^2...}{U_0^2+U_1^2+U_2^2+U_3^2...}}$
+
+$U_0 = Amplitude der Grundfrequenz$
+
+##### Verkürzungsfaktor Vk
+
+$\vartheta_k = \frac{\vartheta}{c}=\frac{1}{\varepsilon_r}$
+
+$\vartheta= \vartheta_k \cdot c =\lambda \cdot f$
+
+$c=\frac{1}{\sqrt{\varepsilon_0\cdot \mu_0}}$
+
+##### Reflexionsfaktor r
+
+$r=\frac{R_L-Z}{R_L+Z}=\frac{\hat u_r}{\hat u_h}$
+
+###### Reflexionsarten
+
+1) Kurzschluss: $emsp; Reflexion mit entgegengesetzter Polarität und gleicher Amplitude
+2) offenes Ende:       Reflexion mit gleicher Polarität und gleicher Amplitude
+3) Anpassung($R_L=Z$):       keine Reflexion
+
+##### (Leitungs -) Wellenwiderstand Z
+
+$Z=\sqrt\frac{L'}{C'}$
+
+##### Ersatzschaltbild Koaxialkabel
+
+Vollständig
+![Hier sollte Bild sein](Bilder/ESBvoll.png)
+
+###### Vereinfachungen für kurze Kabel mit hoher Frequenz
+
+kurze Leitung bei hoher Frequenz XL >> R => R vernachlässigen
+hohe Frequenz Xc << RG => G vernachlässigen
+
+![Hier sollte Bild sein](Bilder/ESBverein.png)
