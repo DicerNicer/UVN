@@ -12,7 +12,9 @@ Es werden nur periodische Signale behandelt
 
 Signalform: $\text{sinusförmig}$
 
-Amplitude: $U_{ss},\hat u_{max},\hat u_{min}, \text{Offset} \ U_{DC}$
+Amplitude: $U_{ss},\ \hat u_{max},\ \hat u_{min}$
+
+Offset: $ U_{DC}$
 
 Periodendauer: $T$
 
