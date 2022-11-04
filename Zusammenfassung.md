@@ -14,7 +14,7 @@ Signalform: $\text{sinusförmig}$
 
 Amplitude: $U_{ss},\ \hat u_{max},\ \hat u_{min}$
 
-Offset: $ U_{DC}$
+Offset: $U_{DC}$
 
 Periodendauer: $T$
 
